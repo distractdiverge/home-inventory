@@ -4,7 +4,8 @@
   "description": "",
   "main": "./app/main.js",
   "scripts": {
-    "start": "electron-forge start",
+    "start": "electron .",
+    "dev": "webpack -w",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "clean": "rimraf out/",
@@ -22,19 +23,37 @@
   },
   "homepage": "https://github.com/alexlapinski/home-inventory#readme",
   "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "cssnano": "^3.10.0",
     "electron-forge": "^4.0.1",
     "electron-prebuilt-compile": "1.7.5",
     "eslint": "^4.6.1",
     "eslint-plugin-react": "^7.3.0",
-    "rimraf": "^2.6.1"
+    "extract-text-webpack-plugin": "^3.0.0",
+    "json-loader": "^0.5.7",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^10.0.0",
+    "postcss-loader": "^2.0.6",
+    "rimraf": "^2.6.1",
+    "style-loader": "^0.18.2",
+    "sugarss": "^1.0.0",
+    "webpack": "^3.5.6"
   },
   "dependencies": {
     "dotenv": "^4.0.0",
-    "electron-compile": "^6.4.1"
+    "electron-compile": "^6.4.1",
+    "postcss": "^6.0.11",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-toolbox": "^2.0.0-beta.12"
   },
   "config": {
     "forge": "./config/forge.js"

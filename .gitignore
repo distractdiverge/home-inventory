@@ -1,3 +1,6 @@
+# Webpack outputs
+app/renderer/
+
 # Logs
 logs
 *.log
