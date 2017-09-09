@@ -1,0 +1,19 @@
+{
+  "name": "home-inventory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlapinski/home-inventory.git"
+  },
+  "author": "Alex Lapinski <contact@alexlapinski.name>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexlapinski/home-inventory/issues"
+  },
+  "homepage": "https://github.com/alexlapinski/home-inventory#readme"
+}
