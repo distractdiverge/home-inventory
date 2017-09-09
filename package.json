@@ -7,6 +7,7 @@
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
+    "clean": "rimraf out/",
     "lint": "eslint **/*.js",
     "lint-fix": "npm run lint -- --fix"
   },
@@ -28,7 +29,8 @@
     "electron-forge": "^4.0.1",
     "electron-prebuilt-compile": "1.7.5",
     "eslint": "^4.6.1",
-    "eslint-plugin-react": "^7.3.0"
+    "eslint-plugin-react": "^7.3.0",
+    "rimraf": "^2.6.1"
   },
   "dependencies": {
     "dotenv": "^4.0.0",
@@ -36,5 +38,8 @@
   },
   "config": {
     "forge": "./config/forge.js"
+  },
+  "engines": {
+    "npm": ">= 5.4.0"
   }
 }
