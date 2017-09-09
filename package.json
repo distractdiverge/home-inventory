@@ -4,7 +4,11 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "lint": "eslint **/*.js",
+    "lint-fix": "npm run lint -- --fix"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,20 @@
   },
   "homepage": "https://github.com/alexlapinski/home-inventory#readme",
   "devDependencies": {
-    "electron-forge": "^4.0.1"
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "electron-forge": "^4.0.1",
+    "electron-prebuilt-compile": "1.7.5",
+    "eslint": "^4.6.1",
+    "eslint-plugin-react": "^7.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "electron-compile": "^6.4.1"
+  },
+  "config": {
+    "forge": "./config/forge.js"
   }
 }
