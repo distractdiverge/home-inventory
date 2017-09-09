@@ -3,6 +3,8 @@ A simple application to inventory all of your electronics at home.
 This application is mainly intended to serve as a learning project for
 electron.
 
+**Note: This project is setup to use ```yarn``` as well as ```npm```**
+
 ## Getting Started
 The following steps will get this application running locally.
 

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alexlapinski/home-inventory/issues"
   },
-  "homepage": "https://github.com/alexlapinski/home-inventory#readme"
+  "homepage": "https://github.com/alexlapinski/home-inventory#readme",
+  "devDependencies": {
+    "electron-forge": "^4.0.1"
+  }
 }
